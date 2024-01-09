@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="swiggy.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="for-login" id="for-log">
+      <div class="login-page" id="log-page">
+        <div class="cross-icon">
+          <i onclick="cut()" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="login-signup">
+          <div class="login-text">
+            <div class="align-for-txt">
+              <h1>LogIn</h1>
+              <p id="jus-for-space">
+                or <span onclick="change()">Create An Account</span>
+              </p>
+              <p>____</p>
+            </div>
+            <img src="png egg roll.webp" alt="" />
+          </div>
+        </div>
+        <div class="login-input">
+          <div class="phone">
+            <input type="number" placeholder="Phone Number" />
+          </div>
+          <div class="btnLog">
+            <button>LOGIN</button>
+            <p>
+              By clicking on Login, I accept the Terms & Conditions & Privacy
+              Policy
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="signup-page" id="for-sign">
+        <div class="cross-icon">
+          <i onclick="cut()" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="login-signup">
+          <div class="login-text">
+            <div class="align-for-txt">
+              <h1>Sign Up</h1>
+              <p id="jus-for-space">
+                or <span onclick="change2()">login to your account</span>
+              </p>
+              <p>____</p>
+            </div>
+            <img src="png egg roll.webp" alt="" />
+          </div>
+        </div>
+        <div class="inputs-for-sign">
+          <input type="number" placeholder="Phone Number" />
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="btnSign">
+          <button>CONTINUE</button>
+          <p>
+            By clicking on Login, I accept the Terms & Conditions & Privacy
+            Policy
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="left">
+        <nav>
+          <img src="swiggy.png" alt="swiggy" />
+          <div class="btn">
+            <button onclick="login()">Login</button>
+            <button onclick="signup()" class="sign">Sign Up</button>
+          </div>
+        </nav>
+        <div class="txt">
+          <h1>Late night at office?</h1>
+          <p>Order food from favourite restaurants near you.</p>
+          <form class="inp">
+            <input
+              type="text"
+              placeholder="Enter Your Delivery Location"
+              required
+            />
+            <button type="submit" onclick="clickalert()">Find Food</button>
+          </form>
+          <p>POPULAR CITIES IN INDIA</p>
+          <p>
+            Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai
+            Pune& more.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="crd">
+        <br />
+        <img src="swiggy2.png" alt="swiggy2" />
+        <h3>Live Order Tracking</h3>
+        <p>
+          Know where your order is at all times, from the restaurant to your
+          doorstep
+        </p>
+      </div>
+      <div class="crd">
+        <img src="swiggy1.png" alt="swiggy1" />
+        <h3>No Minimum Order</h3>
+        <p>
+          Order in for yourself or for the group, with no restrictions on order
+          value
+        </p>
+      </div>
+      <div class="crd">
+        <img src="swiggy11.png" alt="swiggy3" />
+        <h3>Lightning-Fast Delivery</h3>
+        <p>
+          Experience Swiggy's superfast delivery for food delivered fresh & on
+          time
+        </p>
+      </div>
+    </div>
+    <div class="rest">
+      <div class="text">
+        <h1>Restaurants in your pocket</h1>
+        <p>
+          Order from your favorite restaurants & track on the go, with the
+          all-new Swiggy app.
+        </p>
+        <img src="swiggy4.png" alt="swiggy4" />
+        <img src="swiggy5.png" alt="swiggy5" />
+      </div>
+      <img
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n"
+      />
+      <img
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn"
+      />
+    </div>
+    <div class="footer">
+      <div class="list">
+        <h2>COMPANY</h2>
+        <p>About us</p>
+        <p>Team</p>
+        <p>Careers</p>
+        <p>Swiggy Blog</p>
+        <p>Bug Bounty</p>
+        <p>Swiggy One</p>
+        <p>Swiggy Corporate</p>
+        <p>Swiggy HDFC Bank Credit Card</p>
+        <p>Swiggy Genie</p>
+        <p>Swiggy Instamart</p>
+      </div>
+      <div class="list">
+        <h2>CONTACT</h2>
+        <p>Help & Support</p>
+        <p>Partner with us</p>
+        <p>Ride with us</p>
+      </div>
+      <div class="list">
+        <h2>LEGAL</h2>
+        <p>Terms & Conditions</p>
+        <p>Refund & Cancellation</p>
+        <p>Privacy Policy</p>
+        <p>Offer Terms</p>
+        <p>Cookie Policy</p>
+        <p>Phishing & Fraud</p>
+      </div>
+      <div class="list">
+        <img src="swiggy4.png" />
+        <img src="swiggy5.png" />
+      </div>
+    </div>
+    <hr />
+    <div class="footer1">
+      <div class="list">
+        <h4>WE DELIVER TO</h4>
+        <br />
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Balrampur</p>
+        <p>Ballia</p>
+        <p>Ballari</p>
+        <p>Balasore</p>
+        <p>Balangir</p>
+        <p>Balaghat</p>
+        <p>Bahraich</p>
+        <p>Bahadurgarh</p>
+        <p>Bagdogra</p>
+        <p>Bagalkot</p>
+        <p>Baddi</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Balrampur</p>
+        <p>Ballia</p>
+        <p>Ballari</p>
+        <p>Balasore</p>
+        <p>Balangir</p>
+        <p>Balaghat</p>
+        <p>Bahraich</p>
+        <p>Bahadurgarh</p>
+        <p>Bagdogra</p>
+        <p>Bagalkot</p>
+        <p>Baddi</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Balrampur</p>
+        <p>Ballia</p>
+        <p>Ballari</p>
+        <p>Balasore</p>
+        <p>Balangir</p>
+        <p>Balaghat</p>
+        <p>Bahraich</p>
+        <p>Bahadurgarh</p>
+        <p>Bagdogra</p>
+        <p>Bagalkot</p>
+        <p>Baddi</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Balrampur</p>
+        <p>Ballia</p>
+        <p>Ballari</p>
+        <p>Balasore</p>
+        <p>Balangir</p>
+        <p>Balaghat</p>
+        <p>Bahraich</p>
+        <p>Bahadurgarh</p>
+        <p>Bagdogra</p>
+        <p>Bagalkot</p>
+        <p>Baddi</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+        <p>Abohar</p>
+        <p>Ahmednagar</p>
+        <p>Ahmedabad</p>
+        <p>Agra</p>
+        <p>Adoni</p>
+        <p>Adilabad</p>
+      </div>
+    </div>
+    <hr />
+    <div class="footer2">
+      <div class="list">
+        <h4>BEST PLACES TO EAT ACROSS CITIES</h4>
+        <br />
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+        <p>Best Restaurants In Abohar</p>
+      </div>
+    </div>
+    <hr />
+    <div class="footer3">
+      <div class="list">
+        <h4>BEST PLACES TO EAT ACROSS CITIES</h4>
+        <br />
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+      </div>
+      <div class="list">
+        <br /><br />
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+        <p>Afghani Restaurant Near Me</p>
+      </div>
+    </div>
+    <hr />
+    <div class="footer4">
+      <div class="list">
+        <h4>EXPLORE EVERY RESTAURANTS NEAR ME</h4>
+        <div class="main-list">
+          <p>Explore Restaurants Near Me</p>
+          <p>Explore Top Rated Restaurants Near Me</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="footer5">
+      <img
+        src="https://5.imimg.com/data5/ANDROID/Default/2021/5/EZ/FT/GZ/130133306/product-jpeg.jpg"
+      />
+      <p>© 2023 Swiggy</p>
+      <div class="icon-footer">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
